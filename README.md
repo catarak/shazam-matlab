@@ -1,6 +1,6 @@
 #Shazam in MATLAB
 
-This was the final project for an audio and speech processing class I took in college. The goal was to create a version of Shazam in MATLAB, using techniques similar to the technology behind Shazam.
+This was the final project for an audio and speech processing class I took in college, in the Fall of 2010. The goal was to create a version of Shazam in MATLAB, using techniques similar to the technology behind Shazam.
 
 The first step was to extract a series of fingerprints from a few songs and amass a corpus of data. Each fingerprint is a spectrogram taken from about a two second window. The fingerprint is then quantized, meaning that if the amplitude at a specific point is above a threshold value, it is assigned a "1", and if below that threshold, a "0". 
 
